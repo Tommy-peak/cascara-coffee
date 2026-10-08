@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400..500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <a class="skip" href="#menu">К меню</a>
@@ -86,8 +86,7 @@
 <!-- ============ О НАС ============ -->
 <section class="section about" id="about">
   <div class="wrap about-grid">
-    <div class="about-photo" style="--photo:url(img/about.jpg)" role="img" aria-label="Обжарочная машина и мешки с зелёным кофе">
-      <svg viewBox="0 0 300 300" aria-hidden="true"><g fill="none" stroke="#F3DFC1" stroke-width="3" stroke-linecap="round" opacity=".55"><ellipse cx="150" cy="150" rx="70" ry="95" transform="rotate(25 150 150)"/><path d="M104 232c40-40 50-120 94-164"/></g></svg>
+    <div class="about-photo" style="--photo:url(about.svg)" role="img" aria-label="Обжарочная машина и мешки с зелёным кофе">
     </div>
     <div class="about-text">
       <h2>Начиналось с одной жаровни в гараже</h2>
@@ -106,14 +105,14 @@
 <section class="section gallery" id="gallery">
   <div class="wrap">
     <h2>Как у нас выглядит день</h2>
-    <p class="muted narrow">Нажмите на фото, чтобы рассмотреть. Положите свои снимки в папку <code>img</code> под именами g1.jpg … g6.jpg — они подставятся сами.</p>
+    <p class="muted narrow">Нажмите на картинку, чтобы рассмотреть. Чтобы поставить настоящие фото клиента, замените файлы в папке <code>img</code> и поправьте расширения <code>.svg</code> на <code>.jpg</code> в этом блоке.</p>
     <div class="gal-grid" id="galGrid">
-      <button class="tile t1" style="--photo:url(img/g1.jpg)" data-cap="Утренний эспрессо на баре"><span>Утренний эспрессо на баре</span></button>
-      <button class="tile t2" style="--photo:url(img/g2.jpg)" data-cap="Свежая обжарка по средам"><span>Свежая обжарка по средам</span></button>
-      <button class="tile t3" style="--photo:url(img/g3.jpg)" data-cap="Круассаны с миндальным кремом"><span>Круассаны с миндальным кремом</span></button>
-      <button class="tile t4" style="--photo:url(img/g4.jpg)" data-cap="Место у окна"><span>Место у окна</span></button>
-      <button class="tile t5" style="--photo:url(img/g5.jpg)" data-cap="Колд брю на льду"><span>Колд брю на льду</span></button>
-      <button class="tile t6" style="--photo:url(img/g6.jpg)" data-cap="Вечер на веранде"><span>Вечер на веранде</span></button>
+      <button class="tile t1" style="--photo:url(g1.svg)" data-cap="Утренний эспрессо на баре"><span>Утренний эспрессо на баре</span></button>
+      <button class="tile t2" style="--photo:url(g2.svg)" data-cap="Свежая обжарка по средам"><span>Свежая обжарка по средам</span></button>
+      <button class="tile t3" style="--photo:url(g3.svg)" data-cap="Круассаны с миндальным кремом"><span>Круассаны с миндальным кремом</span></button>
+      <button class="tile t4" style="--photo:url(g4.svg)" data-cap="Место у окна"><span>Место у окна</span></button>
+      <button class="tile t5" style="--photo:url(g5.svg)" data-cap="Колд брю на льду"><span>Колд брю на льду</span></button>
+      <button class="tile t6" style="--photo:url(g6.svg)" data-cap="Вечер на веранде"><span>Вечер на веранде</span></button>
     </div>
   </div>
 </section>
@@ -251,6 +250,6 @@
   </div>
 </footer>
 
-<script src="js/main.js"></script>
+<script src="main.js"></script>
 </body>
 </html>
